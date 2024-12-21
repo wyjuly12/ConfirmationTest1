@@ -17,6 +17,8 @@
 　Laravel 8.83.8
 
 ## ER図
+![スクリーンショット 2024-12-21 150253](https://github.com/user-attachments/assets/d9a6efef-64e8-4289-bd24-7921874622f2)
+
 
 
 ## URL
