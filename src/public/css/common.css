@@ -1,0 +1,26 @@
+.header {
+    max-width: auto;
+    border-bottom: solid;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.hearder__title {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.hearder__title h2 {
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hearder__button {
+    text-align: right;
+}

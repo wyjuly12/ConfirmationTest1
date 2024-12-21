@@ -1,0 +1,79 @@
+.admin-form__content h2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.adimin-form__menu {
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.admim-form__flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.admin-form__cotent input,
+.admin-form__cotent select,
+.admin-form__cotent button {
+    height: 30px;
+    border-radius: 5px;
+    background-color: #dddddd80;
+}
+
+.admin-form__cotent input {
+    width: 200px;
+}
+
+.admin-form__cotent button {
+    text-align: center;
+    width: 80px;
+}
+
+
+.admin-form__table {
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid #ddd;
+}
+
+
+.table-form__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.table-form__row:last-child {
+    border: none;
+}
+
+.table-form__row:first-of-type {
+    background: rgba(158, 104, 63, 0.822);
+    color: #fff;
+}
+
+.table-form__header {
+    width: 615px;
+    padding: 10px;
+    text-align: left;
+}
+
+
+.table-form__row td {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.admin-form__page nav {
+    text-align: right;
+}
+
+.admin-form__page svg.w-5.h-5 {
+    width: 30px;
+    height: 30px;
+    justify-items: right;
+}

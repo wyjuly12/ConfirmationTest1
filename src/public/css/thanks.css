@@ -1,0 +1,25 @@
+.thanks__content {
+    margin: 0px auto;
+    padding: 0 auto;
+    width: 1230px;
+    text-align: center
+}
+
+.thanks__content p {
+    font-weight: bolder;
+}
+
+
+.thanks__button button {
+    width: 30%;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 10px;
+    background: black;
+    color: #ddd;
+    font-size: large;
+    font-weight: bolder;
+    content: center;
+    cursor: pointer;
+
+}

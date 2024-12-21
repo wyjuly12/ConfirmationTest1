@@ -1,0 +1,104 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+/* フォーム設定 */
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form__group-title {
+    text-align: center;
+}
+
+.form__label--required {
+    color: red;
+}
+
+.form__error {
+    height: 20px;
+    color: red;
+    text-align: left;
+}
+
+
+
+/* インプットボックス設定 */
+.form__input--text input,
+.form__input--textarea textarea,
+.form__input--select select,
+.form__input-flex--name input,
+.form__input-flex--tel input {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    appearance: none;
+}
+
+.form__input-flex--radio input {
+    width: 185px;
+}
+
+.form__input--textarea textarea {
+    height: 200px;
+}
+
+.form__input--radio {
+    display: flex;
+}
+
+.form__input-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form__input-flex--name input {
+    width: 300px;
+}
+
+.form__input-flex--tel input {
+    width: 200px;
+}
+
+
+/* 確認ボタン */
+.form__button {
+    margin-top: 50px;
+}
+
+.form__button-submit {
+    width: 30%;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 10px;
+    background: black;
+    color: #ddd;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+/* バリテーション */
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
