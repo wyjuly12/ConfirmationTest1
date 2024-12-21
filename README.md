@@ -17,7 +17,7 @@
 　Laravel 8.83.8
 
 ## ER図
-/home/wyjuly12/coachtech/ConfirmationTest1/ConfirmationTest1.drawio
+
 
 ## URL
 開発環境：http://localhost/
