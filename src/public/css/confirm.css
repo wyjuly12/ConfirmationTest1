@@ -82,14 +82,12 @@
 }
 
 .confirm-button button {
-    width: 30%;
-    padding: 20px 20px;
+    width: 20%;
+    padding: 10px 20px;
     border: none;
-    border-radius: 10px;
-    background: black;
+    background: darkgoldenrod;
     color: #ddd;
     font-size: large;
     font-weight: bolder;
     cursor: pointer;
 }
-

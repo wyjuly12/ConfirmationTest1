@@ -31,13 +31,17 @@
                     <th class="confirm-table__header">性別</th>
                     <td class="confirm-table__content">
                         <input type="hidden" name="gender" value="{{ $contact['gender']}}" readonly />
-                        @if ($contact['gender'] == '1') 
-                            <p>男性</p> 
-                            @elseif ($contact['gender'] == '2') 
-                            <p>女性</p> 
-                            @else ($contact['gender'] == '3')
-                            <p>その他</p>
-                        @endif
+                        @switch($contact['category_id'])
+                            @case (1)
+                            男性
+                            @break
+                            @case (2)
+                            女性                           
+                            @break
+                            @case (3)
+                            その他
+                            @break
+                        @endswitch   
                     </td>
                 </tr>
                 <tr class="confirm-table__row">
@@ -70,19 +74,19 @@
                         <input type="hidden" name="category_id" value="{{ $contact['category_id'] }}" readonly>
                         @switch($contact['category_id'])
                             @case (1)
-                            <p>商品のお届けについて</p>
+                            商品のお届けについて
                             @break
                             @case (2)
-                            <p>商品の交換について</p>                            
+                            商品の交換について                          
                             @break
                             @case (3)
-                            <p>商品トラブル</p>
+                            商品トラブル
                             @break
                             @case (4)
-                            <p>ショップへのお問い合わせ</p>
+                            ショップへのお問い合わせ
                             @break
                             @case (5)
-                            <p>その他</p>
+                            その他<
                             @break
                         @endswitch                        
                     </td>

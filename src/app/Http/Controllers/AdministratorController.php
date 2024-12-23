@@ -14,16 +14,12 @@ class AdministratorController extends Controller
         return view('register');
     }
 
+    // ログイン画面
     public function userCreate(AdminRequest $request){
         $users = $request->all();
         User::create($users);
         return redirect('/login');
     }
-
-    // ログイン画面
-    // public function userLogin(){
-        // return view('login');
-    // }
 
     public function adminLogin(AdminRequest $request){
         return view('admin',compact('Contacts'));
@@ -38,7 +34,7 @@ class AdministratorController extends Controller
     }
 
     public function search(Request $request){
-        $contacts = Contact::where('email',($request->keyword));
+        $contacts = Contact::where('email',($request->keyword))-> orwhere('email',($request->gender));
         return view('admin', compact('contacts'));
     }
 

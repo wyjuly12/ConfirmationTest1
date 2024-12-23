@@ -122,7 +122,7 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--text">
-                    <input name="address" placeholder="東京都渋谷区１ー２ー３" value="{{ old('address') }}" ></input>
+                    <input name="address" placeholder="東京都渋谷区千駄木１ー２ー３" value="{{ old('address') }}" ></input>
                 </div>
                 <div class="form__error">
                     @error('address')
@@ -140,7 +140,7 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--text">
-                    <input name="building" placeholder="渋谷マンション"  value="{{ old('building') }}" ></input>
+                    <input name="building" placeholder="千駄木マンション"  value="{{ old('building') }}" ></input>
                 </div>
             </div>
         </div>

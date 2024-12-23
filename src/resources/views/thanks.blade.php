@@ -11,9 +11,9 @@
 
 <body>
     <div class="thanks__content">
-        <div class="thanks__text">
+        <div class="thanks text">
             <p>問い合わせありがとうございました</p>
-        </div>            
+        </div>
         <div class="thanks__button">
             <button type="button" onclick="location.href='/'">HOME</button>
         </div> 

@@ -84,11 +84,10 @@
 }
 
 .form__button-submit {
-    width: 30%;
-    padding: 20px 20px;
+    width: 20%;
+    padding: 10px 10px;
     border: none;
-    border-radius: 10px;
-    background: black;
+    background: darkgoldenrod;
     color: #ddd;
     font-size: large;
     font-weight: bolder;
