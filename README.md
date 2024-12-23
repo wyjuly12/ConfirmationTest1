@@ -2,7 +2,7 @@
 問い合わせフォーム
 
 ## Dockerビルド
-１,git clone 
+１,git clone git@github.com:wyjuly12/ConfirmationTest1.git
 ２，docker-compose up -d --build
 
 ## 環境構築
